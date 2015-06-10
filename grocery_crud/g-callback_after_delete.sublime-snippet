@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$crud->callback_after_delete(array($this,'${1:\$primary_key}'));
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>g-callback_after_delete</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$crud->callback_field('${1:fieldName}',array($this,'${2:\$value = "", $primary_key = null}'));
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>g-callback_field</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$crud->unset_texteditor('${1:fieldName}','full_text');
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>g-unset_texteditor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
