@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->set_lang_string('${1:form_update_changes}','${text}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-set_lang_string</tabTrigger>

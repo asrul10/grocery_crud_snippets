@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$crud->callback_column('${1:columnName}',array($this,'${2:\$value, \$row}'));
-
+\$crud->callback_column('${1:columnName}',array(\$this,'${2:\$value, \$row}'));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-callback_column</tabTrigger>

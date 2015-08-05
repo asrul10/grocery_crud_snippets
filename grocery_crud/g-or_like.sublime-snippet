@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->or_like('${1:fieldName}','${2:value}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-or_like</tabTrigger>

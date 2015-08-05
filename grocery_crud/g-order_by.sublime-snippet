@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->order_by('${1:fieldName}','${2:DESC}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-order_by</tabTrigger>

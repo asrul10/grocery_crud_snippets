@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->change_field_type('${1:fieldName}', '${2:type}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-change_field_type</tabTrigger>

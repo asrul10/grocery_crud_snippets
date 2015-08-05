@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$crud->callback_before_delete(array($this,'${1:\$primary_key}'));
-
+\$crud->callback_before_delete(array(\$this,'${1:\$primary_key}'));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-callback_before_delete</tabTrigger>

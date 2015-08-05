@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->add_fields('${1:fieldName}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-add_field</tabTrigger>

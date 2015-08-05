@@ -2,7 +2,7 @@
 	<content><![CDATA[
 \$crud = new grocery_CRUD();
 
-\$crud->set_table('${1:table}')
+\$crud->set_table('${1:table}');
 \$crud->set_subject('${2:subject}');
 
 \$output = \$crud->render();

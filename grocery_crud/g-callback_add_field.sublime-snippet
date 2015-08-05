@@ -3,7 +3,6 @@
 \$crud->callback_add_field('${1:fieldName}', function () {
         return '<input type="${2:type}" value="${3:value}" name="${4:name}">';
     });
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-callback_add_field</tabTrigger>

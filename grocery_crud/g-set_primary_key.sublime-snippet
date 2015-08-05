@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->set_primary_key('${1:fieldName}','${2:tableName}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-set_primary_key</tabTrigger>

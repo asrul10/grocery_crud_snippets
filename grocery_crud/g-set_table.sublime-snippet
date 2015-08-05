@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->set_table('${1:tableName}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-set_table</tabTrigger>

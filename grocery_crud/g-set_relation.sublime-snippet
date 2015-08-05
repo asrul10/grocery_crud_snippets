@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->set_relation('${1:fieldName}','${2:tableName}','${3:fieldName}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-set_relation</tabTrigger>

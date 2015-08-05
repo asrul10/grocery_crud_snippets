@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 \$crud->unset_columns('${1:column}');
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>g-unset_columns</tabTrigger>
