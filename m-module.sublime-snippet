@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:Description}
+ * @return JSON
+ **/
+function module()
+{
+	\$module = [ 
+				'name' => '${2:Module name}',
+				'menu_link' => [
+								 '${3:menu_link}' => '${4:Menu link description}',
+							   ],
+				'table' => '',
+				'description' => '${5:description}'
+			  ];
+	\$this->output->set_content_type('application/json')->set_output(json_encode($module));
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>m-module</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
